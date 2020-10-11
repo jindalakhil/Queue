@@ -11,6 +11,10 @@ public class MyQueue {
 		list.add(node);
 	}
 
+	public void dequeue() {
+		list.popLast();
+	}
+	
 	public void print() {
 		list.printNode();
 	}
